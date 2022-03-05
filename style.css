@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #2B3C52
+}
+
+header .container{
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 35px;
+}
+
+header span.front {
+    border-top: 15px solid white;
+    padding-top: 5px;
+}
+
+header span.end {
+    color: #5891DC;
+    border-top: 15px solid #5891DC;
+    padding-top: 5px;
+}
+
+header p {
+    color: #5891DC;
+    float: right;
+    font-size: 12px;
+}
+
+header ul li {
+    display: inline-block;
+    list-style: none;
+    float: right;
+    margin-left: 7px;
+    font-size: 13px;
+}
+
+header a {
+        text-decoration: none;
+        color: white
+}
+
+/*------------------------------------------------------------------------*/
+
+section {
+    background-color: #2B3C52;
+    color: white;
+    text-align: center;
+}
+
+.container2 {
+    width: 30%;
+    margin: auto;
+    padding: 45px 0px;
+}
+
+section h1 {
+    color: #5891DC;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+section button {
+    text-transform: uppercase;
+    color: white;
+    background-color: #2B3C52;
+    padding: 6px 15px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 0.1px solid white;
+}
+
+/*------------------------------------------------------------------------*/
+
+
+main {
+    width: 50%;
+    margin: 30px auto 0px auto;
+}
+
+main h3 {
+    text-transform: uppercase;
+    color: #4E9BED;
+    font-weight: normal;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4E9BED;
+    margin-bottom: 10px;
+}
+
+main .grid {
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 40px;
+}
+
+main article {
+    width: 30%;
+}
+
+main article img {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+main article h5 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+main article p {
+    font-size: 12px;
+    color: gray;
+    text-align: justify;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+.formulario {
+    background-color: #4E6B8B;
+}
+
+.formulario h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 30px;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    padding: 20px 0 30px 0;
+}
+
+form .formulario-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-right {
+    width: 100%;
+}
+
+form label {
+    color: white;
+    font-size: 13px;
+}   
+
+form .input-basic {
+    height: 30px;
+    background-color: #C2C1C3;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px 0px 10px 0px;
+    width: 90%;
+}
+
+form .input-double {
+    height: 90px;
+    background-color: #C2C1C3;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px 0px 10px 0px;
+    width: 100%;
+}
+
+form .btn {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#enviar-btn {
+    padding: 10px 15px;
+    background-color: #2A733F;
+    border: 5px;
+    color: white;
+    font-weight: normal;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#limpar-btn {
+    padding: 10px 15px;
+    background-color: #A64949;
+    border: 5px;
+    color: white;
+    font-weight: normal;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+/*------------------------------------------------------------------------*/
+
+footer {
+    background-color: #131B24;
+    color: white;
+}
+
+footer .caixa {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    padding: 25px 0;
+    font-size: 12px;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 25px 0;
+    font-size: 12px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
